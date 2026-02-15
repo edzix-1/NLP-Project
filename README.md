@@ -1,5 +1,6 @@
 # Comparing Multilanguage Models for Similar Language translation
 The project collab notebook is located at https://colab.research.google.com/drive/1qUXn9rluOBpVrSKaIvWSokChnhFlX7Fc
+The video presentation can be found here https://youtu.be/pcACMnDs1Vo
 ## Abstract
 Multilingual language models allow for translations between languages that have a small amount of direct training data. However, for languages from the same language family, this type of model may prove to be less accurate than a model focusing only on translating between those languages. In this project I would like to focus on analyzing different multilingual models and their weak points, in particular looking into Croatian and Polish translations. The BLEU score will be used for evaluation, as well as back and-forward and cycle translations will be examined to compare the result with the original. After the analysis, I will also look into finding possible improvements for those translations.
 ## Model
