@@ -17,7 +17,9 @@ output_path = "opus_pl_hr.zip"
 urllib.request.urlretrieve(url, output_path)
 print("Download complete")
 
-!unzip -o opus_pl_hr.zip
+import zipfile
+with zipfile.ZipFile('opus_pl_hr.zip', 'r') as zip_ref:
+    zip_ref.extractall('')
 
 import pandas as pd
 from nltk.translate.bleu_score import sentence_bleu
